@@ -1,0 +1,361 @@
+/* Body */
+body {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+color:#212121;
+font-weight: 400;
+font-size: 14px;
+line-height:120%;
+letter-spacing: 0.03em;
+background: #FFFFFF;
+}
+/* A hover */
+a:hover,:focus {
+color:#ff0000;
+}
+/* Bg */
+.bg {
+position: absolute;
+width: 100%;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+    
+/* Header */
+.header {
+position: absolute;
+width: 696px;
+left: 452px;
+top: 280px;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+/* Button */
+.button {
+cursor: pointer;
+}
+.button:hover,:focus {
+color:#ff0000;
+}
+/* WebStudio */
+.logo {
+position: absolute;
+width: 145px;
+left: 215px;
+top: 24px;
+height: 31px;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+color: #2196F3;
+line-height: 31px;
+}
+
+/* Студія */
+.studio {
+position: absolute;
+width: 45px;
+left: 453px;
+top: 32px;
+color: #2196F3;
+}
+
+/* Портфоліо */
+.portfolio {
+position: absolute;
+width: 72px;
+left: 548px;
+top: 32px;
+color: #212121;
+}
+
+/* Контакти */
+.contacts {
+position: absolute;
+width: 64px;
+left: 670px;
+top: 32px;
+color: #212121;
+}
+
+/* info@devstudio.com */
+.address1 {
+position: absolute;
+width: 135px;
+left: 1078px;
+top: 32px;
+color: #2196F3;
+}
+
+/* +38 096 111 11 11 */
+.address2 {
+position: absolute;
+width: 122px;
+left: 1263px;
+top: 32px;
+color: #757575;
+}
+
+.uvaga1 {
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.uvaga2 {
+line-height: 171%;
+color: #757575;
+}
+
+/* Чим ми займаємося */
+
+.chim {
+position: absolute;
+width: 366px;
+height: 42px;
+left: 617px;
+top: 966px;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
+/* img-1 */
+.img-1 {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1058px;
+}
+/* img-2 */
+.img-2 {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1058px;
+}
+/* img */
+.img-3 {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1058px;
+}
+/* Чим ми займаємося */
+.command {
+position: absolute;
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1540px;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
+
+.list {
+/* Наша команда */
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+}
+/* Box */
+.box {
+position: absolute;
+width: 270px;
+height: 368px;
+left: 215px;
+top: 1632px;
+border-radius: 0px 0px 4px 4px;
+}
+/* img-4 */
+.img-4 {
+position: absolute;
+width: 270px;
+height: 260px;
+left: 215px;
+top: 1632px;
+}
+/* member1 */
+.member1 {
+position: absolute;
+width: 129px;
+height: 19px;
+left: 286px;
+top: 1922px;
+}
+/* memberpos */
+.memberpos {
+position: absolute;
+width: 130px;
+height: 19px;
+left: 285px;
+top: 1951px;
+}
+/* Box-1 */
+.box-1 {
+position: absolute;
+width: 270px;
+height: 368px;
+left: 515px;
+top: 1632px;
+border-radius: 0px 0px 4px 4px;
+}
+/* img-5 */
+.img-5 {
+position: absolute;
+width: 270px;
+height: 260px;
+left: 515px;
+top: 1632px;
+}
+/* member2 */
+.member2 {
+width: 129px;
+height: 19px;
+left: 286px;
+top: 1922px;
+}
+/* memberpos-1 */
+.memberpos-1 {
+position: absolute;
+width: 147px;
+height: 19px;
+left: 577px;
+top: 1951px;
+}
+/* Box-2 */
+.box-2 {
+position: absolute;
+width: 270px;
+height: 368px;
+left: 815px;
+top: 1632px;
+border-radius: 0px 0px 4px 4px;
+}
+/* img-6 */
+.img-6 {
+position: absolute;
+width: 270px;
+height: 260px;
+left: 815px;
+top: 1632px;
+}
+/* member3 */
+.member3 {
+width: 129px;
+height: 19px;
+left: 286px;
+top: 1922px;
+}
+/* memberpos-2 */
+.memberpos-2 {
+position: absolute;
+width: 76px;
+height: 19px;
+left: 912px;
+top: 1951px;
+}
+/* Box-3 */
+.box-3 {
+position: absolute;
+width: 270px;
+height: 368px;
+left: 1115px;
+top: 1632px;
+border-radius: 0px 0px 4px 4px;
+}
+ /* img-7 */
+.img-7 {
+position: absolute;
+width: 270px;
+height: 260px;
+left: 1115px;
+top: 1632px;
+}
+/* member4 */
+.member4 {
+width: 129px;
+height: 19px;
+left: 286px;
+top: 1922px;
+}
+/* memberpos-3 */
+.memberpos-3 {
+position: absolute;
+width: 87px;
+height: 19px;
+left: 1207px;
+top: 1951px;
+}
+/* Footer bg */
+.footer {
+position:absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2094px;
+background: #2F303A;       
+}
+.logo-1 {
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+}
+/* м. Київ, пр-т Лесі Українки, 26 */
+.addpos1 {
+position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+line-height: 24px;
+/* or 171% */
+}
+
+
+/* info@devstudio.com */
+.addpos2 {
+position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+line-height: 24px;
+/* or 171% */
+color: rgba(255, 255, 255, 0.6);
+}
+/* +38 096 111 11 11 */
+.addpos3 {
+position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+line-height: 24px;
+/* or 171% */
+color: rgba(255, 255, 255, 0.6);
+}
+    
+   
+/* Portfolio */
+
+
+/* List-item */
+.list-item {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 262px;
+}

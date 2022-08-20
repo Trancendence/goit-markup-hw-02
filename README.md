@@ -1,2 +1,2 @@
 # goit-markup-hw-02
- hw2 css
+ goit-markup-hw-02
