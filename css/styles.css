@@ -1,26 +1,37 @@
 :root {
 --main-color:#212121;
+}
+/* Body */
+body {
 font-family: 'Roboto', sans-serif;
-color:#212121;
+color:var(--main-color);
 font-weight: 400;
 font-size: 14px;
 line-height:1.17;
 letter-spacing: 0.03em;
-background: #FFFFFF;
-}
-
-/* Body */
-body {
-
+background:#FFFFFF;
 }
 /* A hover */
 a {
 text-decoration: none;
 }
 
-a:hover,:focus {
+.link:hover {
 color:#2196F3;
 }
+/* Hide H1 */
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
 
 /* Bg */
 .bg {
@@ -38,69 +49,61 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 /* Button */
-button {
+.button {
 cursor: pointer;
 background: #2196F3;
-border-radius: 4px;
 }
 .button:hover,:focus {
 color:#2196F3;
 }
+.posluga {
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
 /* WebStudio */
 .logo {
-width: 145px;
-left: 215px;
-top: 24px;
-height: 31px;
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-color: #2196F3;
+color: #212121;
 line-height: 31px;
 }
-
+/* Web */
+.web {
+color: #2196F3;
+}
+.stud{
+color: #FFFFFF;
+}
 /* Студія */
 .studio {
-width: 45px;
-left: 453px;
-top: 32px;
-color: #2196F3;
 font-weight: 500;
 }
 
 /* Портфоліо */
 .portfolio {
-width: 72px;
-left: 548px;
-top: 32px;
-color: #212121;
 font-weight: 500;
 }
 
 /* Контакти */
 .contacts {
-width: 64px;
-left: 670px;
-top: 32px;
-color: #212121;
 font-weight: 500;
 }
 
 /* info@devstudio.com */
 .address1 {
-position: absolute;
-width: 135px;
-left: 1078px;
-top: 32px;
 color: #808080;
 font-weight: 500;
 }
 
 /* +38 096 111 11 11 */
 .address2 {
-width: 122px;
-left: 1263px;
-top: 32px;
 color: #808080;
 font-weight: 500;
 }
@@ -118,10 +121,6 @@ color: #757575;
 /* Чим ми займаємося */
 
 .chim {
-width: 366px;
-height: 42px;
-left: 617px;
-top: 966px;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -237,39 +236,58 @@ background: #2F303A;
 }
 /* м. Київ, пр-т Лесі Українки, 26 */
 .addpos1 {
-
 line-height: 24px;
 /* or 171% */
 font-weight: 500;
+color: #FFFFFF;
+font-style: normal;
 }
-
 
 /* info@devstudio.com */
 .addpos2 {
-
 line-height: 24px;
 /* or 171% */
-color: #808080;
+color: rgba(255, 255, 255, 0.6);
 font-weight: 500;
+font-style: normal;
 }
 /* +38 096 111 11 11 */
 .addpos3 {
-
 line-height: 24px;
 /* or 171% */
-color: #808080;
+color: rgba(255, 255, 255, 0.6);
 font-weight: 500;
+font-style: normal;
 }
     
    
 /* Portfolio */
 .button2 {
 cursor: pointer;
-background: #2196F3;
-border-radius: 4px;
+background: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+}
+.button2:hover {
+background-color: #2196F3;
+color: #FFFFFF;
 }
 
 /* List-item */
-.list-item {
-
+.projname {
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+}
+.description {
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
 }
