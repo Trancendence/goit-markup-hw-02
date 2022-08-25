@@ -1,5 +1,11 @@
 :root {
 --main-color:#212121;
+--main-color1:#FFFFFF;
+--main-color2:#2196F3;
+--main-color3:#808080;
+--main-color4:rgba(255, 255, 255, 0.6);
+--main-color5:#757575;
+--main-color6:#F5F4FA;
 }
 /* Body */
 body {
@@ -9,7 +15,7 @@ font-weight: 400;
 font-size: 14px;
 line-height:1.17;
 letter-spacing: 0.03em;
-background:#FFFFFF;
+background:var(--main-color1);
 }
 /* A hover */
 a {
@@ -17,7 +23,7 @@ text-decoration: none;
 }
 
 .link:hover {
-color:#2196F3;
+color:var(--main-color2);
 }
 /* Hide H1 */
 .visually-hidden {
@@ -35,87 +41,93 @@ color:#2196F3;
 
 /* Bg */
 .bg {
-background: #2F303A;
+background:var(--main-color);
 }
     
 /* Header */
 .header {
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--main-color1);
 }
 /* Button */
 .button {
 cursor: pointer;
-background: #2196F3;
+background:var(--main-color2);
 }
 .button:hover,:focus {
-color:#2196F3;
+color:var(--main-color2);
 }
 .posluga {
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.88;
 /* identical to box height, or 188% */
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+background:var(--main-color2);
+color: var(--main-color);
+cursor: pointer;
 }
 /* WebStudio */
 .logo {
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-color: #212121;
-line-height: 31px;
+color:var(--main-color);
+line-height: 1.2;
 }
 /* Web */
 .web {
-color: #2196F3;
+color:var(--main-color2);
 }
 .stud{
-color: #FFFFFF;
+color: var(--main-color1);
 }
 /* Студія */
 .studio {
 font-weight: 500;
+color:var(--main-color);
 }
 
 /* Портфоліо */
 .portfolio {
 font-weight: 500;
+color:var(--main-color);
 }
 
 /* Контакти */
 .contacts {
 font-weight: 500;
+color:var(--main-color);
 }
-
 /* info@devstudio.com */
 .address1 {
-color: #808080;
+color:var(--main-color3);
 font-weight: 500;
 }
 
 /* +38 096 111 11 11 */
 .address2 {
-color: #808080;
+color:var(--main-color3);
 font-weight: 500;
 }
 
 .uvaga1 {
 font-weight: 700;
 text-transform: uppercase;
+line-height: 1.14;
 }
 
 .uvaga2 {
-line-height: 171%;
-color: #757575;
+line-height: 1.71;
+color:var(--main-color3);
 }
 
 /* Чим ми займаємося */
@@ -123,7 +135,7 @@ color: #757575;
 .chim {
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 }
 /* img-1 */
@@ -143,7 +155,7 @@ text-align: center;
 
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 }
 
@@ -156,9 +168,8 @@ list-style: none;
 .list1 {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-text-align: center;
+line-height: 1.18;
+
 }
 
 /* Box */
@@ -172,11 +183,17 @@ text-align: center;
 }
 /* member1 */
 .member1 {
-
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color:var(--main-color);
 }
 /* memberpos */
 .memberpos {
-
+    font-size: 16px;
+    line-height: 1.18;
+    color:var(--main-color5);
 }
 /* Box-1 */
 .box-1 {
@@ -188,11 +205,17 @@ text-align: center;
 }
 /* member2 */
 .member2 {
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color:var(--main-color);
 }
 /* memberpos-1 */
 .memberpos-1 {
-
+    font-size: 16px;
+    line-height: 1.18;
+    color:var(--main-color5);
 }
 /* Box-2 */
 .box-2 {
@@ -204,11 +227,17 @@ text-align: center;
 }
 /* member3 */
 .member3 {
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color:var(--main-color);
 }
 /* memberpos-2 */
 .memberpos-2 {
-
+    font-size: 16px;
+    line-height: 1.18;
+    color:var(--main-color5);
 }
 /* Box-3 */
 .box-3 {
@@ -220,42 +249,44 @@ text-align: center;
 }
 /* member4 */
 .member4 {
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color:var(--main-color);
 }
 /* memberpos-3 */
 .memberpos-3 {
-
+    font-size: 16px;
+    line-height: 1.18;
+    color:var(--main-color5);
 }
 /* Footer bg */
 .footer {
-
-background: #2F303A;       
+background:var(--main-color);      
 }
 .logo-1 {
 
 }
 /* м. Київ, пр-т Лесі Українки, 26 */
 .addpos1 {
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 font-weight: 500;
-color: #FFFFFF;
+color: var(--main-color1);
 font-style: normal;
 }
 
 /* info@devstudio.com */
 .addpos2 {
-line-height: 24px;
-/* or 171% */
-color: rgba(255, 255, 255, 0.6);
+line-height: 1.71;
+color: var(--main-color4);
 font-weight: 500;
 font-style: normal;
 }
 /* +38 096 111 11 11 */
 .addpos3 {
-line-height: 24px;
-/* or 171% */
-color: rgba(255, 255, 255, 0.6);
+line-height: 1.71;
+color: var(--main-color4);
 font-weight: 500;
 font-style: normal;
 }
@@ -264,30 +295,31 @@ font-style: normal;
 /* Portfolio */
 .button2 {
 cursor: pointer;
-background: #F5F4FA;
+background:var(--main-color6);
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.62;
 /* identical to box height, or 162% */
 text-align: center;
+font-family: inherit;
 }
 .button2:hover {
-background-color: #2196F3;
-color: #FFFFFF;
+background-color:var(--main-color2);
+color: var(--main-color1);
 }
 
 /* List-item */
 .projname {
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 letter-spacing: 0.06em;
 }
 .description {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
-    color: #757575;
+    color:var(--main-color3);
 }
